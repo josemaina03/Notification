@@ -1,6 +1,9 @@
 // lear
 // Notifications Page
-
+window.addEventListener("DOMContentLoaded", () => {
+  const activeItems = document.querySelectorAll(".item.active");
+  const markButton = document.querySelector(".mark");
+  const count = document.querySelector(".count");
 
 
   markButton.addEventListener("click", () => {
